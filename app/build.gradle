@@ -125,4 +125,9 @@ dependencies {
     implementation 'com.github.Jay-Goo:RangeSeekBar:v1.0.7'
     // 高亮功能提示效果 https://material.google.com/growth-communications/feature-discovery.html#feature-discovery-design
     implementation 'com.getkeepsafe.taptargetview:taptargetview:1.9.1'
+
+
+    compile files('libs/cglib-nodep-3.2.5.jar')
+    compile files('libs/joda-time-2.9.4.jar')
+    compile files('libs/joda-time-2.9.4-sources.jar')
 }
